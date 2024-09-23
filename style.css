@@ -1,0 +1,66 @@
+.bg-pink-custom {
+    background-color: #cf9292; 
+  }
+.back{
+    background-color: #f7dcdc; 
+    padding: 30px;
+}
+h4{
+    margin-left: 20px;
+}
+.container{
+    text-align: center;
+}
+.photo{
+    margin-top: 20px;
+}
+.photo img{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    justify-content: center;
+}
+h1{
+    font-size: 60px;
+    letter-spacing: 8px;
+    margin-top: 5px;
+    color: #FFC5C5; 
+}
+h5{
+    color: #FFC0CB; 
+    font-size: 26px;
+    margin-top: -50px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 16px;
+    color: #455A64;
+}
+h2{
+    font-size: 50px;
+    margin-top: 5px;
+    margin-top: 15px;
+    color: #FFB6C1; /* Pastel pink color */
+}
+.hobby{
+    color: #FFC5C5; /* Pastel pink color */
+    margin: 20px;
+    text-align: center;
+    overflow: auto;
+}
+.hobby div{
+    width: 33%;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.hobby img{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 10px;
+    align-items: center;
+    margin-right: 10px;
+}
+
