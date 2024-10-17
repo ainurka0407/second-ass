@@ -9,16 +9,32 @@ h4{
     margin-left: 20px;
 }
 .container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
     text-align: center;
 }
 .photo{
     margin-top: 20px;
+    
+}
+.sards{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
 }
 .photo img{
     height: 200px;
     width: auto;
     border-radius: 50%;
     justify-content: center;
+    display: flex;
+    justify-content:center;
+    text-align: center;
 }
 h1{
     font-size: 60px;
@@ -40,10 +56,10 @@ h2{
     font-size: 50px;
     margin-top: 5px;
     margin-top: 15px;
-    color: #FFB6C1; /* Pastel pink color */
+    color: #FFB6C1; 
 }
 .hobby{
-    color: #FFC5C5; /* Pastel pink color */
+    color: #FFC5C5; 
     margin: 20px;
     text-align: center;
     overflow: auto;
@@ -63,4 +79,67 @@ h2{
     align-items: center;
     margin-right: 10px;
 }
+button {
+    background-color: #cf9292; 
+    color: white; 
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: center;
+}
+
+/* task 3 */
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+button {
+    background-color: #cf9292;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #e3a8a8;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #b77b7b;
+    transform: scale(0.98);
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#sortedNumbers {
+    font-size: 20px;
+    color: #7C0A24;}
+
+
+
+
 
